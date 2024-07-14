@@ -12,11 +12,8 @@
             <p>Уже есть аккаунт? <a href="#">Войти</a></p>
 
             <form action="#">
-                <select name="company" id="company">
-                    <option value="All">Все компании</option>
-                    <option value="mycompany" selected>Моя компания</option>
-                </select>
                 <div>
+                    <input type="text" placeholder="Компания" required />
                     <input
                         type="text"
                         id="firstname"
@@ -41,11 +38,13 @@
                         <img src="./images/Arrow 1.png" alt="Стрелка" />
                     </button>
                 </div>
-                <input type="checkbox" name="agreement" id="agreement" />
-                <label for="agreement"
-                    >Я прочитал и принимаю
-                    <a href="#">Условия использования</a></label
-                >
+                <div>
+                    <input type="checkbox" name="agreement" id="agreement" />
+                    <label for="agreement">
+                        Я прочитал и принимаю
+                        <a href="#">Условия использования</a></label
+                    >
+                </div>
             </form>
         </main>
     </body>
