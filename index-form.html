@@ -3,47 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
         <title>Document</title>
     </head>
     <body>
-        <h1>Регистрация</h1>
-        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        <main>
+            <h1>Регистрация</h1>
+            <p>Уже есть аккаунт? <a href="#">Войти</a></p>
 
-        <form action="#">
-            <select name="company" id="company">
-                <option value="All">Все компании</option>
-                <option value="mycompany" selected>Моя компания</option>
-            </select>
-            <div>
-                <input
-                    type="text"
-                    id="firstname"
-                    minlength="2"
-                    maxlength="20"
-                    placeholder="Имя"
-                    required
-                />
-                <input
-                    type="text"
-                    id="lastname"
-                    minlength="2"
-                    maxlength="20"
-                    placeholder="Фамилия"
-                    required
-                />
-            </div>
-            <input type="email" id="email" placeholder="E-mail" required />
-            <div>
-                <button>
-                    Зарегистрироваться
-                    <img src="./images/Arrow 1.png" alt="Стрелка" />
-                </button>
-            </div>
-            <input type="checkbox" name="agreement" id="agreement" />
-            <label for="agreement"
-                >Я прочитал и принимаю
-                <a href="#">Условия использования</a></label
-            >
-        </form>
+            <form action="#">
+                <select name="company" id="company">
+                    <option value="All">Все компании</option>
+                    <option value="mycompany" selected>Моя компания</option>
+                </select>
+                <div>
+                    <input
+                        type="text"
+                        id="firstname"
+                        minlength="2"
+                        maxlength="20"
+                        placeholder="Имя"
+                        required
+                    />
+                    <input
+                        type="text"
+                        id="lastname"
+                        minlength="2"
+                        maxlength="20"
+                        placeholder="Фамилия"
+                        required
+                    />
+                </div>
+                <input type="email" id="email" placeholder="E-mail" required />
+                <div>
+                    <button>
+                        Зарегистрироваться
+                        <img src="./images/Arrow 1.png" alt="Стрелка" />
+                    </button>
+                </div>
+                <input type="checkbox" name="agreement" id="agreement" />
+                <label for="agreement"
+                    >Я прочитал и принимаю
+                    <a href="#">Условия использования</a></label
+                >
+            </form>
+        </main>
     </body>
 </html>
