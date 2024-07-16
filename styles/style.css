@@ -1,36 +1,50 @@
 body {
-    background-color: #F39494;
+    background: linear-gradient(#374151, #111827);
+    color: #FFFFFF;
+    font-family: Roboto, Courier, monospace;
+    font-size: 14px;
 }
 
- main {
-    width: 582px;
-    height: 573px;
-    background-color: #FFFEFE;
-    border-radius: 10px;
- }
-
-h1 {
-    font-size: 36px;
-    font-weight: 700;
-    font-family: "Open Sans", "Arial";
-}
-
-p {
-    color: #666666;
-    font-family: "Open Sans", "Arial";
-    font-size: 18px;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 a {
-    font-family: "Open Sans", "Arial";
-    color: #089FE0;
-}
-
-button {
-    background-color: #089FE0;
     color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 50px;
 }
 
-label {
-    font-size: 14px;
+input {
+    background-color: #1F293799;
+    border-radius: 100px;
+    margin: 0;
+    padding: 5px;
+    border: none;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.main_picture {
+margin: 30px 0 70px 0;
+}
+
+footer {
+    font-size: 16px;
+}
+
+.blog_author {
+    font-size: 16px;
+}
+
+.blog_text {
+    font-size: 16px;
+}
+
+.blog_text p:first-child {
+    font-size: 20px;
 }
