@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <form action="#">
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+
+                <div class="form">
+                    <input
+                        class="my_company"
+                        type="text"
+                        placeholder="Компания"
+                        required
+                    />
+
+                    <div class="pers_data">
+                        <input
+                            type="text"
+                            id="firstname"
+                            minlength="2"
+                            maxlength="20"
+                            placeholder="Имя"
+                            required
+                        />
+                        <input
+                            type="text"
+                            id="lastname"
+                            minlength="2"
+                            maxlength="20"
+                            placeholder="Фамилия"
+                            required
+                        />
+                    </div>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="E-mail"
+                        required
+                    />
+                    <button>
+                        <p>Зарегистрироваться</p>
+                        <img src="./images/Arrow 1.png" alt="Стрелка" />
+                    </button>
+                    <div class="block_agreement">
+                        <input
+                            type="checkbox"
+                            name="agreement"
+                            id="agreement"
+                        />
+                        <label for="agreement">
+                            Я прочитал и принимаю
+                            <a href="#">Условия использования</a></label
+                        >
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+/* Больше всего обращался к элиментам по селектору, 
+симантически считается ли это ошибкой? 
+Стоит ли использовать class?
+По макету у checkbox background, не стал кастомно изменять */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F39494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ form {
+    width: 582px;
+    height: 573px;
+    background-color: #FFFEFE;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    padding: 0 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ input {
+    height: 44px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans", "Arial";
+    color: #333333;
+    margin: 0;
+}
+
+p {
+    color: #666666;
+    font-family: "Open Sans", "Arial";
+    font-size: 18px;
+}
+
+a {
+    font-family: "Open Sans", "Arial";
+    color: #089FE0;
+}
+
+button {  
+    height: 44px;
+    background-color: #089FE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button > p {
+    font-size: 18px;
+    color: #FFFFFF;
+    flex: 0 0 calc(100% - 44px);
+}
+
+label {
+    font-size: 14px;
+}
+
+label > a {
+    text-decoration: none;
+    margin-left: 5px;
+ }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+ }
+
+ .form > input:first-child {
+    background-color: #FFF;
+    margin-top: 47px;
+ }
+
+ .pers_data {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .pers_data > input:first-child {
+    margin-right: 1px;
+ }
+
+ .block_agreement {
+    display: flex;
+    align-items: center;
+ }
+
+ ::placeholder {
+    font-style: italic;
+    color: #999999;
+    padding-left: 11px;
+ }
