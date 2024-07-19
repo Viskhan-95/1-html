@@ -104,6 +104,11 @@ label > a {
 
  .pers_data > input:first-child {
     margin-right: 1px;
+    border-radius: 5px 0 0 5px;
+ }
+
+ .pers_data > input:last-child {
+    border-radius: 0 5px 5px 0;
  }
 
  .block_agreement {
