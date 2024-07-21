@@ -3,12 +3,23 @@ body {
     color: #FFFFFF;
     font-family: Roboto, Courier, monospace;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
 }
 
 ul {
+    display: flex;
+    gap: 0 40px;
     margin: 0;
     padding: 0;
     list-style: none;
+    flex: 1;
 }
 
 a {
@@ -18,33 +29,116 @@ a {
 }
 
 input {
+    width: 220px;
+    height: 38px;
     background-color: #1F293799;
     border-radius: 100px;
     margin: 0;
-    padding: 5px;
+    padding: 0 0 0 40px;
     border: none;
+    color: #FFFFFF;
+    box-sizing: border-box;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
 }
 
+footer {
+    font-size: 16px;
+    text-align: center;
+    margin: 70px 0;
+    opacity: 60%;
+}
+
+.container {
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my_blog {
+    flex: 1;
+}
+
+.my_blog a {
+    display: flex;
+    align-items: center;
+}
+
+.my_blog p {
+    margin-left: 10px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    flex: 2;
+}
+
+.container__search {
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    position: absolute;
+    padding: 0 17px; 
+}
+
+.about__author {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__kurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
 .main_picture {
 margin: 30px 0 70px 0;
 }
 
-footer {
-    font-size: 16px;
+.about__author h1 {
+    width: 525px;
 }
 
-.blog_author {
-    font-size: 16px;
+.author__block {
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
 
-.blog_text {
+.author__profile {
     font-size: 16px;
+    line-height: 10px;
+    margin: 16px;
 }
 
-.blog_text p:first-child {
+.block__text {
+    width: 700px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.block__text p:nth-child(2) {
+margin: 35px 0;
+}
+
+.block__text p:first-child {
     font-size: 20px;
 }
