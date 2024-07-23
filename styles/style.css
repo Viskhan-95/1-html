@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #F39494;
+    background: rgb(255,165,165);
+    background: linear-gradient(90deg, rgba(255,165,165,1) 0%, rgba(255,255,255,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,12 +37,19 @@ body {
 
  input {
     height: 44px;
-    border: 1px solid #F5F5F5;
     border-radius: 5px;
     background-color: #F5F5F5;
     color: #333333;
     font-size: 16px;
     font-weight: 600;
+    padding-left: 11px;
+    border: none;
+ }
+
+ input:focus {
+   background-color: #FFF;
+   outline: none;
+   border: 1px solid #F5F5F5;
  }
 
 h1 {
@@ -69,6 +77,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 button > p {
@@ -93,7 +104,6 @@ label > a {
  }
 
  .form > input:first-child {
-    background-color: #FFF;
     margin-top: 47px;
  }
 
@@ -119,5 +129,4 @@ label > a {
  ::placeholder {
     font-style: italic;
     color: #999999;
-    padding-left: 11px;
  }
