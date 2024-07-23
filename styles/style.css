@@ -15,17 +15,14 @@ header {
 
 ul {
     display: flex;
-    gap: 0 40px;
     margin: 0;
     padding: 0;
     list-style: none;
-    flex: 1;
 }
 
 a {
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 50px;
 }
 
 input {
@@ -64,17 +61,17 @@ footer {
     flex-direction: column;
 }
 
-.my_blog {
-    flex: 1;
-}
-
 .my_blog a {
     display: flex;
     align-items: center;
 }
 
 .my_blog p {
-    margin-left: 10px;
+    margin: 0 77px 0 10px;
+}
+
+.course__frontend {
+ margin: 0 39px 0 52px;
 }
 
 .search {
