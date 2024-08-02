@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #FFFFFF;
+    --color-bg: #357EFE;
+    --color-bg-button: #1ABC9C;
+    --color-bg-sale: #FFC736;
+    --color-bg-footer: #1A1D25;
+
+    --color-text: #4E5D7C;
+    --color-text-blue: #357EFE;
+    --color-text-white: #FFFFFF;
+    --color-text-black: #000000;
+
+    --border-5: 5px;
+    --border-8: 8px;
+    --border-34: 34px;
+    --border-47: 47px;
+
+    --layout-width: 1400px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--color-primary);
+    color: var(--color-text-white);
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	margin: 0;
+    padding-bottom: 100px;
+}
